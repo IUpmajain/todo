@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css
+    ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar bg-primary ">
+        <div class="container-fluid">
+          <span class="navbar-brand w-100 text-white fs-1 mb-0 h1 text-center">TODO APP</span>
+        </div>
+      </nav>
+
+      <div class="container">
+        <form>
+            <div class="mt-5 mb-2">
+                <input required type="text" class="form-control mb-2 rounded-0" placeholder="Username" id="inputname" aria-label="Username" >
+                <input required type="email" class="form-control mb-2 rounded-0" placeholder="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input required type="number" class="form-control mb-2 rounded-0" placeholder="MobileNumber" id="inputnumber" aria-label="MobileNumber">
+            </div>
+            <button type="submit" class="btn btn-primary w-100 rounded-0 fw-bold">Save</button>
+        </form>
+
+        <ul class="todolist list-group rounded-0"></ul>
+      </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
